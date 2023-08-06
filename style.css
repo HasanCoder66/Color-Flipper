@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-centre{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 {
+    padding: 10px;
+    height: 5vw;
+    background-color: black;
+    color: white;
+}
+.color-name {
+    color: black;
+    font-size:25px ;
+    font-weight: bold ;
+    /* display:px flex; */
+}
+
+.links {
+    display: flex;
+    list-style: none;  
+   
+  
+}
+.links ,li, h3, a {
+    text-decoration: none;
+    color: black;
+}
+.links ,li, h3,a:hover {
+    color: dodgerblue;
+}
+.links, li {
+      padding-left: 45px;
+}
+.container {
+    margin-top: 40vh ;
+   text-align: center;
+}
+.btn button {
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    border: 2px solid black;
+    
+}
+.btn button:hover {
+    background-color: black;
+    color: white;
+} 
+.color-span {
+    color: dodgerblue;
+}
